@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Sensitive / raw samples (do NOT upload live malware)
+*.exe
+*.dll
+*.bat
+*.cmd
+*.ps1
+*.vbs
+*.js
+!*.md
+
+# Notes
+TODO.md
+draft/
