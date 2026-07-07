@@ -22,4 +22,3 @@ I'm learning to become a SOC Analyst, and this repo is where I document everythi
 
 - **GitHub:** [PvT2005](https://github.com/PvT2005)
 - **Email:** pvt1772005@gmail.com
-<img width="1828" height="962" alt="Image" src="https://github.com/user-attachments/assets/c8ab36c0-74e5-4d92-b3f7-4c744d467bc7" />
