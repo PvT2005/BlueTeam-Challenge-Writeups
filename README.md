@@ -1,12 +1,12 @@
 # 🛡️ Blue Team Challenge Writeups
 
-A collection of detailed writeups from Blue Team challenges and SOC analyst exercises. Each writeup documents the full investigation process — from initial alert triage to verdict and remediation — following a structured SOC analyst workflow.
+I'm learning to become a SOC Analyst, and this repo is where I document everything I learn from solving Blue Team challenges. For each challenge, I write down how I investigated the problem step by step — what I looked at, what tools I used, and what I found.
 
-## 🎯 Purpose
+## 🎯 Why I made this
 
-- Practice and demonstrate **SOC Tier 1 analyst skills**: alert triage, log analysis, phishing investigation, malware analysis, and incident response.
-- Document findings using a **repeatable, professional methodology** mapped to the MITRE ATT&CK framework.
-- Build a portfolio that showcases hands-on defensive security capabilities.
+- To practice the skills I'll need as a SOC analyst: reading logs, investigating phishing emails, analyzing suspicious files, and responding to security alerts.
+- To keep track of my progress and build good habits — writing things down helps me understand them better.
+- To show what I can actually do, not just what I've studied.
 
 ## 📂 Platforms
 
@@ -14,69 +14,12 @@ A collection of detailed writeups from Blue Team challenges and SOC analyst exer
 |---|---|---|
 | [CyberDefenders](https://cyberdefenders.org/) | Memory Forensics, Network Forensics, Endpoint Forensics | [`CyberDefenders/`](CyberDefenders/) |
 | [LetsDefend](https://letsdefend.io/) | SOC Alert Triage, Phishing Analysis, Incident Response | [`LetsDefend/`](LetsDefend/) |
-| [Blue Team Labs Online](https://blueteamlabs.online/) | Investigation, Incident Response, Reverse Engineering | [`BlueTeamLabs/`](BlueTeamLabs/) |
+| [Blue Team Labs Online](https://blueteamlabs.online/) | Incident Response, Security Operations, Threat Intelligence | [`BlueTeamLabs/`](BlueTeamLabs/) |
 
-## 🔬 Methodology
 
-Every writeup follows this standard investigation workflow:
-
-```
-1. Alert / Challenge Overview
-   └── What are we investigating?
-
-2. Evidence Collection
-   └── Gather artifacts: logs, PCAPs, memory dumps, emails
-
-3. Analysis
-   ├── Header / Metadata inspection
-   ├── IOC extraction (IPs, domains, hashes, URLs)
-   ├── Threat intelligence enrichment (VirusTotal, AbuseIPDB, etc.)
-   └── Timeline reconstruction
-
-4. Findings
-   ├── MITRE ATT&CK mapping
-   └── IOC summary table
-
-5. Verdict & Recommendations
-   └── True Positive / False Positive + remediation steps
-```
-
-## 🛠️ Tools Used
-
-| Category | Tools |
-|---|---|
-| SIEM & Log Analysis | Splunk, Wazuh, ELK |
-| Network Analysis | Wireshark, NetworkMiner, Zeek |
-| Memory Forensics | Volatility 3, Strings |
-| Threat Intelligence | VirusTotal, AbuseIPDB, URLScan.io, Cisco Talos |
-| Email Analysis | MXToolbox, CyberChef, PhishTool |
-| Malware Analysis | ANY.RUN, Hybrid Analysis, PE Studio |
-| Utilities | CyberChef, WHOIS, DNS lookup |
-
-## 📊 Progress Tracker
-
-### CyberDefenders
-| # | Challenge | Category | Difficulty | Status |
-|---|---|---|---|---|
-| 1 | — | — | — | ⬜ Not Started |
-
-### LetsDefend
-| # | Alert ID | Category | Difficulty | Status |
-|---|---|---|---|---|
-| 1 | — | — | — | ⬜ Not Started |
-
-### Blue Team Labs Online
-| # | Challenge | Category | Difficulty | Status |
-|---|---|---|---|---|
-| 1 | — | — | — | ⬜ Not Started |
-
-> **Status Legend:** ⬜ Not Started · 🔄 In Progress · ✅ Completed
-
-## ⚠️ Disclaimer
-
-All analysis is performed in isolated virtual environments. Samples and IOCs are **defanged** for safety. These writeups are for educational purposes only.
 
 ## 📬 Contact
 
 - **GitHub:** [PvT2005](https://github.com/PvT2005)
 - **Email:** pvt1772005@gmail.com
+<img width="1828" height="962" alt="Image" src="https://github.com/user-attachments/assets/c8ab36c0-74e5-4d92-b3f7-4c744d467bc7" />
