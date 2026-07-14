@@ -72,6 +72,6 @@ I searched the command history file at `MangoBleed\uac-mongodbsync-linux-triage\
 
 ## Question 8. The attacker was interested in a specific directory and also opened a Python web server, likely for exfiltration purposes. Which directory was the target?
 
-I noticed the attacker downloaded a zip tool, maybe check sudo permission. The attacker then moved into the `/var/lib/mongodb` directory and started a Python web server, which shows that data exfiltration was likely happening.
+I noticed the attacker downloaded a zip tool, possibly to unzip a malicious file. The attacker then moved into the `/var/lib/mongodb` directory and started a Python web server, which shows that data exfiltration was likely happening.
 
 <img width="1102" height="481" alt="Image" src="https://github.com/user-attachments/assets/8d138815-a76b-4394-8b67-011165ce415d" />
